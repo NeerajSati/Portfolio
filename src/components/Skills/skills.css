@@ -86,10 +86,12 @@
     .leftDiv{
         width: 80vw;
         padding-bottom: 0;
+        padding: 35px;
     }
     .rightDiv{
         width: 80vw;
         padding-top: 0;
+        padding: 35px;
     }
     .rightDiv > .skillInd > p {
         flex-direction: row-reverse;
