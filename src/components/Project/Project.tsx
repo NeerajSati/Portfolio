@@ -14,7 +14,7 @@ function Project() {
       </div>
       <div className="allProjects">
         <div className="projectGrid">
-          <a href="google.com" className="projectLink">
+          <a href="https://github.com/NeerajSati/google-clone" className="projectLink">
             <img
               alt="projectImage"
               src={googleClone}
@@ -22,11 +22,11 @@ function Project() {
             ></img>
             <div className="singleProject">Google Clone</div>
           </a>
-          <a href="google.com" className="projectLink">
+          <a href="https://github.com/NeerajSati/BlogSpot" className="projectLink">
             <img alt="projectImage" src={blogspot} className="projectImg"></img>
             <div className="singleProject">BlogSpot</div>
           </a>
-          <a href="google.com" className="projectLink">
+          <a href="https://github.com/NeerajSati/PrimeVideosClone" className="projectLink">
             <img
               alt="projectImage"
               src={primeClone}
@@ -34,7 +34,7 @@ function Project() {
             ></img>
             <div className="singleProject">PrimeVideos Clone</div>
           </a>
-          <a href="google.com" className="projectLink">
+          <a href="https://github.com/NeerajSati/memorizer" className="projectLink">
             <img
               alt="projectImage"
               src={memorizer}
