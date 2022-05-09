@@ -1,0 +1,19 @@
+.footer{
+    height: 10rem;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footerConnect{
+    display: flex;
+    margin-top: 10px;
+}
+.connectIcon{
+    color: #10193594;
+    margin: 20px;
+    font-size: 25px;
+}
