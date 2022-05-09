@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import helloGuy from '../img/helloGuy.gif'
+import helloGuy from '../../img/helloGuy.gif'
 function About() {
   return (
     <div className='about'>

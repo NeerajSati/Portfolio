@@ -8,7 +8,7 @@ import {AiOutlineTwitter} from 'react-icons/ai'
 import {BsInstagram} from 'react-icons/bs'
 import {MdAlternateEmail} from 'react-icons/md'
 import {SiCodechef} from 'react-icons/si'
-import laptopGuy from '../img/Laptop.gif'
+import laptopGuy from '../../img/Laptop.gif'
 
 function Footer() {
   return (

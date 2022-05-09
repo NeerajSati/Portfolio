@@ -1,6 +1,6 @@
 import React from 'react'
 import './mainSection.css'
-import developerImg from '../img/Developer.gif';
+import developerImg from '../../img/Developer.gif';
 import NavBar from '../NavBar/NavBar'
 import {GrLinkedin} from 'react-icons/gr'
 import {BsGithub} from 'react-icons/bs'
