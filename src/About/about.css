@@ -1,0 +1,47 @@
+.about{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+}
+.aboutImgDiv{
+    flex: 4;
+}
+.aboutDiv{
+    flex:8;
+    display: flex;
+    flex-direction: column;
+    padding-left:30px;
+    height: 100%;
+}
+.aboutTitle{
+    flex: 3;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.aboutTitle::after{
+    content: "";
+    position: absolute;
+    border-bottom: 3px solid #9ad4d6;
+    width: 5rem;
+    padding-top: 2.5rem;
+}
+.aboutInfo{
+    flex: 9;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+.guyImg{
+    width: 23rem;
+}
+.aboutInfo > p{
+    line-height: 30px;
+    margin-top: 20px;
+}
