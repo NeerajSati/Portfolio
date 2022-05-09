@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import './navBar.css'
 
 function NavBar() {
-
+  
   const [navChange, setNavchange] = useState(false);
   const changeNavbarColor = () =>{
      if(window.scrollY >= 600){
