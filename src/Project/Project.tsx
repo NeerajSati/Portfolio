@@ -12,22 +12,18 @@ function Project() {
       <div className="allProjects">
         <a href="google.com" className="projectLink">
             <div className="singleProject">
-            <img src={project1} alt="ProjectImage"></img>
             </div>
         </a>
         <a href="google.com" className="projectLink">
             <div className="singleProject">
-            <img src={project1} alt="ProjectImage"></img>
             </div>
         </a>
         <a href="google.com" className="projectLink">
             <div className="singleProject">
-            <img src={project1} alt="ProjectImage"></img>
             </div>
         </a>
         <a href="google.com" className="projectLink">
             <div className="singleProject">
-            <img src={project1} alt="ProjectImage"></img>
             </div>
         </a>
       </div>

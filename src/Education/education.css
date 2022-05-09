@@ -58,3 +58,46 @@
 .educationTitle{
     padding-top: 40px;
 }
+
+
+@media only screen and (min-width: 450px) and (max-width: 920px) {
+    .subDesc{
+        padding-right: 0;
+    }
+    .nopadding > p:nth-child(2){
+        text-align: right;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    .education{
+        padding-top: 10px;
+    }
+    .educationDiv{
+        flex-direction: column;
+    }
+    .subTitle{
+        align-self: center;
+    }
+    .subDesc{
+        padding-left: 0;
+        width: 90vw;
+    }
+    .schoolName{
+        text-align: center;
+    }
+    .degreeName{
+        width: 100%;
+    }
+  }
+
+
+  
+  @media only screen and (max-width: 450px) {
+    .subDesc{
+        padding-right: 0;
+    }
+    .degreeName{
+        flex-direction: column;
+    }
+  }

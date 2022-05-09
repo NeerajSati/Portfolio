@@ -78,3 +78,20 @@
     margin-left: 10px;
     margin-right: 10px;
 }
+
+@media only screen and (max-width: 700px) {
+    .skillDivs{
+        flex-direction: column;
+    }
+    .leftDiv{
+        width: 80vw;
+        padding-bottom: 0;
+    }
+    .rightDiv{
+        width: 80vw;
+        padding-top: 0;
+    }
+    .rightDiv > .skillInd > p {
+        flex-direction: row-reverse;
+    }
+  }

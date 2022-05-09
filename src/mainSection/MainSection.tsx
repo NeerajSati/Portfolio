@@ -1,6 +1,5 @@
 import React from 'react'
 import './mainSection.css'
-import bgImg from '../img/2.jpg';
 import developerImg from '../img/Developer.gif';
 import NavBar from '../NavBar/NavBar'
 import {GrLinkedin} from 'react-icons/gr'
@@ -36,7 +35,6 @@ function MainSection() {
                 <p className="floatIcon"><BsArrowDownCircle/></p>
         </div>
         </div>
-        <img className='bgImg' src={bgImg} alt="Background"></img>
     </div>
   )
 }
