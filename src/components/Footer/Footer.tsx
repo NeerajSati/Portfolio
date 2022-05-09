@@ -12,7 +12,7 @@ import laptopGuy from '../../img/Laptop.gif'
 
 function Footer() {
   return (
-    <div className='footer'>
+    <div className='footer' id='footer'>
       <div className="aboutTitle footerTitle">
           Reach Out
       </div>

@@ -4,7 +4,7 @@ import {SiCplusplus,SiReact,SiNodedotjs,SiMongodb,SiHtml5,SiCss3,SiJavascript,Si
 
 function Skills() {
   return (
-    <div className="skills">
+    <div className="skills" id="skills">
       <div className="skillsDiv">
         <div className="aboutTitle">Skills</div>
         <div className="skillDivs">

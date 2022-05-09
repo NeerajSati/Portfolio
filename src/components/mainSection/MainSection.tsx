@@ -32,7 +32,7 @@ function MainSection() {
             </div>
         </div>
         <div className="bottomFloat">
-                <p className="floatIcon"><BsArrowDownCircle/></p>
+            <a href="#about"><p className="floatIcon"><BsArrowDownCircle/></p></a>
         </div>
         </div>
     </div>

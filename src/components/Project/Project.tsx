@@ -6,7 +6,7 @@ import blogspot from "../../img/blogspot.jpg";
 import memorizer from "../../img/memorizer.jpg";
 function Project() {
   return (
-    <div className="project">
+    <div className="project" id="project">
       <div className="aboutTitle projectTitle">Projects</div>
       <div className="projectDesc">
         Following are some of my personal projects, made using various

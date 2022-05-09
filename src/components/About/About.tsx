@@ -3,7 +3,7 @@ import './about.css'
 import helloGuy from '../../img/helloGuy.gif'
 function About() {
   return (
-    <div className='about'>
+    <div className='about' id='about'>
         <div className='aboutDiv'>
             <div className='aboutTitle'>
                 About Me
