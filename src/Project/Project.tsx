@@ -1,6 +1,6 @@
 import React from "react";
 import "./project.css";
-import project1 from '../img/3.jpg'
+import project1 from "../img/3.jpg";
 function Project() {
   return (
     <div className="project">
@@ -10,23 +10,27 @@ function Project() {
         technologies, Check them out...
       </div>
       <div className="allProjects">
-        <a href="google.com" className="projectLink">
-            <div className="singleProject">
-            </div>
-        </a>
-        <a href="google.com" className="projectLink">
-            <div className="singleProject">
-            </div>
-        </a>
-        <a href="google.com" className="projectLink">
-            <div className="singleProject">
-            </div>
-        </a>
-        <a href="google.com" className="projectLink">
-            <div className="singleProject">
-            </div>
-        </a>
-      </div>
+          <div className="firstProjects">
+          <a href="google.com" className="projectLink">
+            <img alt="projectImage" src={project1} className="projectImg"></img>
+            <div className="singleProject"></div>
+          </a>
+          <a href="google.com" className="projectLink">
+            <img alt="projectImage" src={project1} className="projectImg"></img>
+            <div className="singleProject"></div>
+          </a>
+          </div>
+          <div className="secondProjects">
+          <a href="google.com" className="projectLink">
+            <img alt="projectImage" src={project1} className="projectImg"></img>
+            <div className="singleProject"></div>
+          </a>
+          <a href="google.com" className="projectLink">
+            <img alt="projectImage" src={project1} className="projectImg"></img>
+            <div className="singleProject"></div>
+          </a>
+          </div>
+        </div>
     </div>
   );
 }

@@ -21,8 +21,30 @@
 }
 .allProjects{
     width: 90vw;
-
+    display: flex;
+    flex-direction: row;
+    margin-left: 5vw;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3rem;
 }
-.project1link{
-    
+.projectImg{
+    width: 100%;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+.projectLink{
+    width: 15rem;
+    margin-right: 5rem;
+}
+.projectLink:last-child{
+    margin-right: 0;
+}
+.firstProjects{
+    display: flex;
+    margin-right: 5rem;
+}
+.secondProjects{
+    display: flex;
 }
