@@ -24,10 +24,10 @@ function MainSection() {
                     A pre-final year undergrad, passionate about web development and programming.
                 </div>
                 <div className='connect'>
-                    <p><a href="https://www.linkedin.com/in/neeraj-sati/"><GrLinkedin/></a></p>
-                    <p><a href='https://github.com/NeerajSati'><BsGithub/></a></p>
-                    <p><a href='https://leetcode.com/NeerajSati/'><SiLeetcode/></a></p>
-                    <p><a href='https://auth.geeksforgeeks.org/user/neerajsati123'><SiGeeksforgeeks/></a></p>
+                    <p><a href="https://www.linkedin.com/in/neeraj-sati/" target="_blank" rel="noreferrer"><GrLinkedin/></a></p>
+                    <p><a href='https://github.com/NeerajSati' target="_blank" rel="noreferrer"><BsGithub/></a></p>
+                    <p><a href='https://leetcode.com/NeerajSati/' target="_blank" rel="noreferrer"><SiLeetcode/></a></p>
+                    <p><a href='https://auth.geeksforgeeks.org/user/neerajsati123' target="_blank" rel="noreferrer"><SiGeeksforgeeks/></a></p>
                 </div>
             </div>
         </div>
