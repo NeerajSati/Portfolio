@@ -13,21 +13,21 @@ function Project() {
           <div className="firstProjects">
           <a href="google.com" className="projectLink">
             <img alt="projectImage" src={project1} className="projectImg"></img>
-            <div className="singleProject"></div>
+            <div className="singleProject">Google Clone</div>
           </a>
           <a href="google.com" className="projectLink">
             <img alt="projectImage" src={project1} className="projectImg"></img>
-            <div className="singleProject"></div>
+            <div className="singleProject">BlogSpot</div>
           </a>
           </div>
           <div className="secondProjects">
           <a href="google.com" className="projectLink">
             <img alt="projectImage" src={project1} className="projectImg"></img>
-            <div className="singleProject"></div>
+            <div className="singleProject">PrimeVideos Clone</div>
           </a>
           <a href="google.com" className="projectLink">
             <img alt="projectImage" src={project1} className="projectImg"></img>
-            <div className="singleProject"></div>
+            <div className="singleProject">Memorizer Game</div>
           </a>
           </div>
         </div>

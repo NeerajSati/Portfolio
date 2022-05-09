@@ -27,8 +27,8 @@ function Footer() {
                     <p><a href='https://www.instagram.com/neerajsati17'><BsInstagram className='connectIcon'/></a></p>
                 </div>
                 
-        <div className='aboutImgDiv'>
-            <img className='guyImg' src={laptopGuy} alt="GuyGif"/>
+        <div className='footerImgDiv'>
+            <img className='footerImg' src={laptopGuy} alt="GuyGif"/>
         </div>
     </div>
   )

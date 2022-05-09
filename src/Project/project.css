@@ -37,6 +37,41 @@
 .projectLink{
     width: 15rem;
     margin-right: 5rem;
+    position: relative;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+.singleProject{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    border-radius: 20px;
+    width: 100%;
+    transform: translateX(-50%);
+    text-align: center;
+    display: flex;
+    opacity: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+}
+.projectLink:hover .singleProject{
+    animation: opacityFilter 6s ease-in-out;
+}
+@keyframes opacityFilter {
+    0%{
+        opacity: 0;
+    }
+    10%{
+    opacity: 1;
+    }
+    100%{
+        opacity: 1;
+
+    }
 }
 .projectLink:last-child{
     margin-right: 0;
@@ -47,4 +82,40 @@
 }
 .secondProjects{
     display: flex;
+}
+
+@media only screen and (max-width: 1270px) {
+    .projectLink{
+        margin-right: 10px;
+    }
+    .firstProjects{margin-right: 10px;}
+    .projectDesc{
+            padding-left: 10px;
+            padding-right: 10px;
+    }
+}
+@media only screen and (max-width: 1050px) {
+    .allProjects{
+    flex-direction: column;
+    }
+    .firstProjects, .secondProjects{
+        margin-right: 0px;
+        display: flex;
+        justify-content: center;
+    }    
+    .projectLink{
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .firstProjects, .secondProjects{
+        flex-direction: column;
+        align-items: center;
+    }
+    .projectLink{
+        margin-right: 0px;
+        width: 15rem;
+        margin-bottom: 10px;
+    }
 }
