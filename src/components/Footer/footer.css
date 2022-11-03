@@ -6,13 +6,15 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: #273469;
+    color: white;
 }
 .footerConnect{
     display: flex;
     margin-top: 10px;
 }
 .connectIcon{
-    color: #10193594;
+    color: #fbfbfbf6;
     margin: 20px;
     font-size: 25px;
 }
@@ -21,6 +23,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: white;
 }
 .footerImg{
     width: 25rem;

@@ -1,15 +1,15 @@
 .project {
   padding-top: 50px;
   width: 100%;
-  background-color: #273469;
+  background-color: white;
 }
 .projectTitle {
-  color: #f2fdff;
+  color: black;
 }
 .projectDesc {
   margin-top: 20px;
   font-family: "Raleway", sans-serif;
-  color: #fafaff;
+  color: #273469;
   line-height: 30px;
   font-size: 20px;
   display: flex;
@@ -31,6 +31,7 @@
   margin-right: 30px;
   object-fit: cover;
   height: 170px;
+  box-shadow: 0 0 12px 5px #273469ba;
 }
 .projectLink {
   width: 15rem;

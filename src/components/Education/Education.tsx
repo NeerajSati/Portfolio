@@ -17,7 +17,7 @@ function Education() {
                     <p>2019 - 2023</p>
                 </div>
                 <div className='degreeName'>
-                    CGPA: 8.54
+                    CGPA: 8.82
                 </div>
                 <div className='schoolName'>
                     Kendriya Vidyalaya Shalimar Bagh

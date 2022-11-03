@@ -6,14 +6,16 @@ import Footer from './components/Footer/Footer';
 import MainSection from './components/mainSection/MainSection';
 import Project from './components/Project/Project';
 import Skills from './components/Skills/Skills';
+import Experience from './components/Experience/Experience';
 
 function App() {
   return (
     <div className="App" id='main'>
       <MainSection/>
       <About/>
-      <Education/>
+      <Experience/>
       <Skills/>
+      <Education/>
       <Project/>
       <Footer/>
     </div>
