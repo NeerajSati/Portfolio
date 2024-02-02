@@ -9,10 +9,11 @@ function About() {
                 About Me
             </div>
             <div className='aboutInfo'>
-            <p>I am Neeraj Sati, a final year Engineering undergrad at G.B. Pant Government Engineering College. I am currently practicing Data Structures and algorithms and active in web development. </p>
-            <p></p>I have knowledge of various Programming Languages like C++, Javascript, React Js, Mongo DB, Express Js, Node Js, HTML, CSS, Typescript, etc. I aspire to become a Software Development Engineer.
- 
+            <p>Hi! I'm Neeraj Sati, currently working as Frontend Engineer in Adventum Student Living.</p>
+            <p>I have good problem-solving and analytical skills, and have solved about 1000 programming problems on various coding platforms with contest rating of about 1900 on Leetcode.</p>
+            <p>I have knowledge of various Programming Languages like C++, Javascript, React Js, Mongo DB, Express Js, Node Js, HTML, CSS, Typescript, etc.</p>
             <p>If I'm AFK, then I might be listening to music, sketching, watching movies, doing house chores or just overthinking 🥲.</p>
+            <p>I have completed by B.Tech in Computer Science & Engineering from GGS Indraprastha University, Delhi.</p>
             </div>
         </div>
         <div className='aboutImgDiv'>

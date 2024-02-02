@@ -1,10 +1,11 @@
 .about{
     width: 100%;
-    height: 400px;
+    height: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 .aboutImgDiv{
     flex: 4;
@@ -13,7 +14,7 @@
     flex:8;
     display: flex;
     flex-direction: column;
-    padding-left:30px;
+    padding:0 30px;
     height: 100%;
 }
 .aboutTitle{
