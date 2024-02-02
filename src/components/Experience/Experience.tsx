@@ -9,21 +9,11 @@ function Experience() {
         </div>
         <div className='subDesc'>
             <div className='schoolName'>
-                ASL (Unischolars, UniCreds, Uniacco)
-            </div>
-            <div className='degreeName nopadding'>
-                <p>Frontend Developer</p>
-                <p>August 2023 - Present</p>
-            </div>
-            <div className='degreeName'>
-                Next Js, React Js, Redux
-            </div>
-            <div className='schoolName'>
-                Tamasha.live (Gamepe Technologies)
+            Tamasha.live (Gamepe Technologies)
             </div>
             <div className='degreeName nopadding'>
                 <p>Web Developer Intern</p>
-                <p>August 2022 - Jun 2023</p>
+                <p>August 2022 - Present</p>
             </div>
             <div className='degreeName'>
             Node Js, Express Js, PostgreSQL, Redis
