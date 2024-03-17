@@ -21,7 +21,7 @@ function MainSection() {
                     Hello there, This is Neeraj Sati
                 </div>
                 <div className='someLines'>
-                    A final year undergrad, passionate about web development and programming.
+                    A Software Developer, passionate about Website development and programming.
                 </div>
                 <div className='connect'>
                     <p><a href="https://www.linkedin.com/in/neeraj-sati/" target="_blank" rel="noreferrer"><GrLinkedin/></a></p>
